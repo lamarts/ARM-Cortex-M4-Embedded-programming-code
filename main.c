@@ -5,8 +5,7 @@
 //  *((unsigned int *)0x400FE608U) is the same as SYSCTL->RCGCGPIO in the header file
 //  It is listed in the code for educational purposes and was defined prior to adding the header file
 //  by reviewing the lm4f120h5qr datasheet and looking at the memory map, registers
-//  All credit goes to Quantum Leaps, LLC and AllAboutEE for their outstanding commitment
-//  to teaching embedded programming
+//  The registers are all defined in the datasheet.   
 ////////////////////////////////////////////////////////////////////////////
 
 #include <lm4f120h5qr.h>
